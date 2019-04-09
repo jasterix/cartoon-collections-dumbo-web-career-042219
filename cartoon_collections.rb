@@ -9,9 +9,10 @@ def summon_captain_planet(calls)# code an argument here
   # Your code here
   calls = calls.map {|x| x.capitalize}
   calls.map {|x| "#{x}!"}
-  
 end
 
+# summon_captain_planet notes
+# use .map because it returns a new array and returns that while .each prints the changes but returns the original arrya
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
